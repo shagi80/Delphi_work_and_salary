@@ -1,0 +1,2 @@
+Днище 70 (голуб)	6032	WS-70	FALSE	TRUE	TRUE	FALSE	3,3	420	Ц0019252	Днище 70 (голуб)	74	base_bl.bmp	base_bl.bmp
+Днище 70 (сер)	6033	WS-70	FALSE	TRUE	TRUE	FALSE	3,3	420	Ц0004821	Днище 70 (сер)	74	base.bmp	base.bmp

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014.11.29 21:18:32.586.pas,C:\Users\Шагинян Сергей\Рабочие документы\Borland Studio Projects\Текущие разработки\Наряды ТПА\Unit1.pas=C:\Users\Шагинян Сергей\Рабочие документы\Borland Studio Projects\Текущие разработки\Наряды ТПА\3_modTools\MsgForUsersUnit.pas</Transaction>
+    <Transaction>2014.11.29 21:18:32.632.dfm,C:\Users\Шагинян Сергей\Рабочие документы\Borland Studio Projects\Текущие разработки\Наряды ТПА\Unit1.dfm=C:\Users\Шагинян Сергей\Рабочие документы\Borland Studio Projects\Текущие разработки\Наряды ТПА\3_modTools\MsgForUsersUnit.dfm</Transaction>
+    <Transaction>2015.05.08 22:21:51.142.pas,C:\Users\ShaginyanSergey\Documents\Borland Studio Projects\Текущие разработки\Наряды ТПА\1_modEmplAndFunctLst\EmpData.pas=</Transaction>
+    <Transaction>2015.05.08 22:21:51.171.dfm,C:\Users\ShaginyanSergey\Documents\Borland Studio Projects\Текущие разработки\Наряды ТПА\1_modEmplAndFunctLst\EmpData.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

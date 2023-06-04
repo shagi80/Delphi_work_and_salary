@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.10.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41942,6837024421" ReportOptions.Description.Text="" ReportOptions.LastChange="41958,4835038542" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674021803546F70021808446174617365747301010C2000000020446174615365743D225544532220446174615365744E616D653D227564732200010C2200000020446174615365743D22554453312220446174615365744E616D653D2275647331220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="238,11039" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="UDS" DataSetName="uds" FooterAfterEach="True" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo1" Left="22,67718" Top="0" Width="124,72449" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" Frame.Width="2" ParentFont="False" Text="[docdate]"/>
+      <TfrxMemoView Name="Memo5" Left="0" Top="0" Width="22,67718" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="6" Frame.Width="2" ParentFont="False" Text="[Line]"/>
+      <TfrxMemoView Name="Memo6" Left="147,40167" Top="0" Width="113,3859" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" Frame.Width="2" ParentFont="False" Text="Наряд №[docnum]"/>
+      <TfrxMemoView Name="Memo2" Left="260,78757" Top="0" Width="306,14193" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" Frame.Width="2" ParentFont="False" Text="Функция: [docfunct]"/>
+      <TfrxMemoView Name="Memo8" Left="566,9295" Top="0" Width="151,1812" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" Frame.Width="2" ParentFont="False" Text="Всего часов: [doctime]"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer1" Height="49,13389" Left="0" Top="279,68522" Width="718,1107">
+      <TfrxMemoView Name="Memo9" Left="211,65368" Top="0" Width="272,12616" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="4" ParentFont="False" Text="[rating]"/>
+      <TfrxMemoView Name="Memo11" Left="566,9295" Top="0" Width="64,25201" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" ParentFont="False" Text="[payroll] р"/>
+      <TfrxMemoView Name="Memo14" Left="483,77984" Top="0" Width="83,14966" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" ParentFont="False" Text="По ставкам:"/>
+      <TfrxMemoView Name="Memo20" Left="631,18151" Top="0" Width="86,92919" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="4" ParentFont="False" Text="[timepay]"/>
+      <TfrxMemoView Name="Memo15" Left="22,67718" Top="22,67718" Width="461,10266" Height="18,89765" ShowHint="False" Text="[autorpaystr]"/>
+      <TfrxMemoView Name="Memo17" Left="536,69326" Top="22,67718" Width="94,48825" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" ParentFont="False" Text="[autorpayroll] руб"/>
+      <TfrxMemoView Name="Memo18" Left="631,18151" Top="22,67718" Width="86,92919" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="4" ParentFont="False" Text="[autortimepay]"/>
+      <TfrxMemoView Name="Memo19" Left="483,77984" Top="22,67718" Width="52,91342" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="4" ParentFont="False" Text="Всего:"/>
+    </TfrxFooter>
+    <TfrxDetailData Name="DetailData1" Height="18,89765" Left="0" Top="351,49629" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="UDS1" DataSetName="uds1" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo4" Left="45,35436" Top="0" Width="166,29932" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Width="1,5" ParentFont="False" Text="[work]"/>
+      <TfrxMemoView Name="Memo3" Left="22,67718" Top="0" Width="22,67718" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Width="1,5" ParentFont="False" Text="[Line]"/>
+      <TfrxMemoView Name="Memo10" Left="585,82715" Top="0" Width="132,28355" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Width="1,5" ParentFont="False" Text="Итого: [workpay] руб"/>
+      <TfrxMemoView Name="Memo7" Left="211,65368" Top="0" Width="374,17347" Height="18,89765" ShowHint="False" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Width="1,5" ParentFont="False" Text="[workres]"/>
+    </TfrxDetailData>
+    <TfrxReportSummary Name="ReportSummary1" Height="94,48825" Left="0" Top="430,86642" Width="718,1107">
+      <TfrxMemoView Name="Memo16" Left="151,1812" Top="75,5906" Width="570,70903" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="Отчет распечатан:                               [SignatureName]"/>
+      <TfrxMemoView Name="Memo24" Left="0" Top="56,69295" Width="340,1577" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[SignatureTime]"/>
+    </TfrxReportSummary>
+    <TfrxReportTitle Name="ReportTitle1" Height="158,74026" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo29" Align="baWidth" Left="0" Top="0" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="ОТЧЕТ ПО НАЧИСЛЕНИЯМ"/>
+      <TfrxMemoView Name="Memo30" Align="baWidth" Left="0" Top="37,7953" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[code] [name] [funct]"/>
+      <TfrxMemoView Name="Memo32" Left="0" Top="132,28355" Width="309,92146" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Данные о работе сотрудника:"/>
+      <TfrxMemoView Name="Memo31" Align="baWidth" Left="0" Top="56,69295" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="за период c [date1] по [date2]"/>
+      <TfrxMemoView Name="Memo12" Align="baWidth" Left="0" Top="75,5906" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Всего отработанно [ttime] час, всего начисленно [tpay] руб."/>
+      <TfrxMemoView Name="Memo13" Align="baWidth" Left="0" Top="94,48825" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[hourpay]"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>
